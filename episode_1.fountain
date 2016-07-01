@@ -1,0 +1,391 @@
+INT. POLICE STATION - DAY
+A heated argument between the enormous, well-muscled DETECTIVE MOOSE and the wiry, intense looking DETECTIVE HAMMER.
+
+HAMMER
+We had those perps.
+
+MOOSE
+You had to go and lose your head.
+
+HAMMER
+You were this close to losing yours. Why didn't you chase them? Too many donuts?
+
+DA CHIEF
+(From their office)
+Quiet down! I need the two of you in my office now!
+
+TITLE CARD: LERN 2 PROGRAMMING EPISODE 1: PYTHON COPS
+
+INT. CAPTAIN'S OFFICE - DAY
+DA CHIEF is holding up a newspaper angrily.
+
+DA CHIEF
+What the hell is this?
+
+The headline on the newspaper reads "Hacker strikes again! Police helpless and incompetent!"
+
+MOOSE
+That's a newspaper. It's what people used to get the news before the internet.
+
+DA CHIEF
+(Da Chief speaks very quickly)
+Hammer! Moose! I know what people used to get the news. It's not the paper but the news that's got me juiced! There's a hacker on the loose. This hacker's bad news. Who's the two dudes who can produce this goose? It's you two. Form a truce. It's on you to find this recluse and reduce this digital abuse.
+
+MOOSE
+A hacker, huh? What's he done?
+
+DA CHIEF
+The webspace where we place the face of the PD has been defaced. The waste-case who defaced the space can't be traced.
+
+HAMMER:
+Isn't managing our web presence Ace's job?
+
+DA CHIEF
+I laced into Ace but he's too chaste to replace the webspace with haste. And this is just a taste of the disgrace we'll face if we don't solve the case.
+
+MOOSE
+How does the mayor feel about this?
+
+DA CHIEF
+Distaste.
+
+MOOSE
+We don't know anything about web ... crimes
+
+DA CHIEF
+None of my concern. I want you to be a fully operational cybercrimes unit by 10PM tonight. Somebody needs to save our digital assets!
+
+Cut to:
+A very defaced website.
+
+Back to:
+
+HAMMER
+That's unreasonable! We can't pick up all of the skill we'll need by 10PM.
+
+DA CHIEF
+Okay, I'm a reasonable man. I want you to be able to do something - anything, in Python, by 10PM tonight.
+
+MOOSE
+Couldn't we just hire an expert?
+
+DA CHIEF
+Shut your facehole, detective!
+
+EXT. DA STREETS - DAY
+HAMMER and MOOSE are standing at a hot dog stand.
+
+HAMMER
+What are we going to do? There's nobody here who can teach us programming. The chief's gonna have my ass.
+
+MOOSE
+I'm so angry I could eat an armload of hot-dogs.
+
+HOT DOG STAND OPERATOR
+Hot dogs are five dollars each.
+
+MOOSE
+Acceptable.
+
+HAMMER
+Maybe we could ask ACE for help.
+
+MOOSE
+Nah, ACE doesn't know anything.
+
+Cut to:
+INT. ACE'S OFFICE - DAY
+
+ACE
+Hey.
+
+Back to:
+
+MOOSE
+I'm sure something will turn up.
+
+HOT DOG STAND OPERATOR
+You need to start by downloading the python interpreter. At python.org.
+
+MOOSE
+Wait, you can help us?
+
+HOT DOG STAND OPERATOR
+Yeah, I worked for Yahoo for six years.
+
+MOOSE
+Can you help us learn to program, hot dog man?
+
+HOT DOG STAND OPERATOR
+You're going to have to buy a lot of hot dogs.
+
+MOOSE
+(His mouth and arms completely filled with hot dogs)
+I think we can accomodate that.
+
+HOT DOG STAND OPERATOR
+Let's get started!
+
+The Hot Dog stand guy pulls out a laptop.
+
+INT. CLOSE UP ON THE SCREEN - DAY
+We've zoomed in on the laptop, so close that the screen now dominates the lesson.
+
+HOT DOG STAND OPERATOR
+So, let's imagine you've downloaded Python from python.org. You should get Python 3, rather than Python 2 - it's newer. It comes with a program called IDLE. IDLE stands for "Interactive Development and Learning Environment", but it's also a reference to the comedian Eric Idle - becuase, you know... Python.
+
+A suitably ridiculous picture of Eric Idle appears briefly.
+
+HOT DOG STAND OPERATOR
+Here we are! There's not much here, just a blinking line, prompting you to type something in. Give it a try!
+
+HAMMER
+Uh.. okay?
+
+$ python program go
+SyntaxError: invalid syntax
+
+HOT DOG STAND OPERATOR
+Okay, so, it doesn't understand how to deal with that. Let's try something simple. Two plus two.
+
+!    $ 2+2
+!    4
+
+HOT DOG STAND OPERATOR
+See, that worked. Now try two times two!
+
+!    $ 2x2
+!    SyntaxError: invalid syntax
+
+HAMMER
+Syntax? What's a syntax?
+
+HOT DOG STAND OPERATOR
+A Syntax Error is the error that Python throws when it can't understand a command.
+
+HAMMER
+But I typed it in perfectly!
+
+HOT DOG STAND OPERATOR
+But there's a problem there - some of the mathematical symbols in Python mean different things than you would expect. In Python, you multiply with a star instead of an x.
+
+!    $ 2*2
+!    4
+
+HOT DOG STAND OPERATOR
+It's the same for division, powers, square roots, lots of mathematical operators don't do what you expect them to in Python. Try division - there's no division symbol on your keyboard, so we have to use a backslash, instead.
+
+!    $ 2/2
+!    1
+
+HOT DOG STAND OPERATOR
+That's the ticket! Now divide three by two!
+
+!    $ 3/2
+!    1
+
+Cut to:
+EXT. HOT DOG STAND - DAY
+HAMMER shaking the laptop angrily.
+
+HAMMER
+Three divided by two is not one! Let me show you what happened to the last person who lied to me!
+
+MOOSE
+Cool it, Hammer. This has to do with.. whole numbers, right? If you divide an whole number by a whole number, it assumes you want a whole number back.
+
+HAMMER
+It assumed wrong! Don't screw with me, Python!
+
+HOT DOG STAND OPERATOR
+I'm afraid your enormous friend has it right - but we call them "integers", not "whole numbers". We can talk more about this later, though - for right now, let's move forward and divide three by zero.
+
+HAMMER
+You can't fool me! It's impossible to divide by zero.
+
+Back to:
+INT. CLOSE UP ON THE SCREEN - DAY
+
+HOT DOG STAND OPERATOR
+Just try it.
+
+!    $ 3/0
+!    ZeroDivisionError: integer division or modulo by zero
+
+HAMMER
+Okay, I expected that. Good work, Python.
+
+HOT DOG STAND OPERATOR
+Here's a fun one. Type in two plus two equals four.
+
+!    $ 2 + 2 = 4
+!    SyntaxError: can't assign to operator
+
+HAMMER
+Who is this Operator character? Is he the hacker we're looking for? I swear to god, I will find you, Operator, and when I do, I'm gonna tear your face off!
+
+HOT DOG STAND OPERATOR
+No, no, it's just that the equals symbol there doesn't mean the same thing that it does in math.
+
+MOOSE
+Why would they change what equals means? It's like they want us to be confused.
+
+HOT DOG STAND OPERATOR
+There aren't a tonne of characters on a standard keyboard, so some ugly compromises had to be made. In this case, the equals symbol is the variable assignment operator. Type in x equals two.
+
+!    $ x = 2
+!    2
+
+HOT DOG STAND OPERATOR
+So, now, x has been assigned the value of two. Type in x plus x.
+
+!    $ x + x
+!    4
+
+MOOSE
+Oh, I get it, so now x is equal to two every time we use it.
+
+HOT DOG STAND OPERATOR
+Yeah! You got it. Now set x equal to 2 times 2.
+
+!    $ x = 2 * 2
+!    4
+
+HAMMER
+But x is equal to 2. 2 isn't equal to 2 * 2. 4 is!
+
+HOT DOG STAND OPERATOR
+Equals means assignment. We're assigning 4 to x.
+
+HAMMER
+x was just 2, though.
+
+HOT DOG STAND OPERATOR
+When we assign 4 to x, the 2 is overwritten. It's gone. Now x is 4. x is called a variable, because it changes. Type in x + x again.
+
+!    $ x + x
+!    8
+
+HAMMER
+Okay, I think I've got it. Does it always have to be 'x'?
+
+HOT DOG STAND OPERATOR
+No, you use just about any word as a variable. Or a sequence of words, so long as they don't contain any spaces.
+
+!    $ butts = 8
+!    8
+!    $ this will fail = 9
+!    SyntaxError: invalid syntax
+!    $ this_will_not_fail = 9
+!    9
+
+HOT DOG STAND OPERATOR
+Let's look at some words. Type in hello world.
+
+!    $ hello world
+!    SyntaxError: invalid syntax
+
+HAMMER
+Yeah, it doesn't know how to deal with that. We covered that, like, first thing we did.
+
+HOT DOG STAND OPERATOR
+That's because it thinks that's a command. But it's not! It's just words. To let the computer know that these are just words and not a command to run, you need to wrap the words in quotes.
+
+!    $ "hello world"
+!    "hello world"
+
+MOOSE
+Hello, computer.
+
+HAMMER
+Don't talk to the computer, Moose.
+
+HOT DOG STAND OPERATOR
+We can also do some math to the words. Try adding two words together.
+
+!    $ "AMY" + "hammer"
+!    'AMYhammer'
+
+HAMMER
+I wanted there to be a space between those.
+
+HOT DOG STAND OPERATOR
+Then add a space! You can press the 'up' key on your keyboard to go back to the last command you entered, if you want to try it again.
+
+!    $ "AMY" + " " + "hammer"
+!    'HAMMER'
+
+HAMMER
+Ha! I did it.
+
+HOT DOG STAND OPERATOR
+Try multiplying "AMY" by five before adding it to "hammer".
+
+!    $ "AMY" * 5 + " " + "hammer"
+!    'AMYAMYAMYAMYHAMMER'
+
+HAMMER
+I want spaces between those AMYs, too.
+
+HOT DOG STAND OPERATOR
+So add a space.
+
+!    $ "AMY" + " " * 5 + "hammer"
+!    'AMY     hammer'
+
+HAMMER
+Wait, what just happened?
+
+MOOSE
+Remember order-of-operations from math? You just multiplied the space by five and then added everything together.
+
+HOT DOG STAND OPERATOR
+Try wrapping the parts that you want to run first in parentheses to clarify the order you want these things to happen in.
+
+!    $ ("AMY" + " ") * 5 + "hammer"
+!    'AMY AMY AMY AMY HAMMER'
+
+HAMMER
+I did it! I programmed!
+
+HOT DOG STAND OPERATOR
+You did it! Hey - the offer stands. Any time you want to come and buy a bunch of hot dogs, I'll lay some hot programming knowledge on you.
+
+Everybody turns to the camera
+
+HOT DOG STAND OPERATOR
+If you enjoyed this episode, make sure to check out our sponsor - Edvard's Nutrient Sludge, at marquee.click/sludge!
+
+MOOSE
+If you're a sludge lover and a nutrient lover, this nutrient sludge is for you!
+
+HAMMER
+It tastes like wet flour mixed with purple food dye.
+
+HOT DOG STAND OPERATOR
+Remember, that's Edvard's Nutrient Sludge
+
+JINGLE VOICE WITH OVERLAY
+"It's just wet flour and purple food dye!"
+
+EXT. HOT DOG STAND - DAY
+
+HOT DOG STAND OPERATOR
+Recap time! Let's look at the menu!
+
+HOT DOG STAND OPERATOR waves at their hot dog menu, which has glossary terms instead of hot dog prices.
+
+HOT DOG STAND OPERATOR
+An _interpreter_ is the program that you use to run Python programs.
+
+HOT DOG STAND OPERATOR
+A _command line interface_ is a program that allows you to interact with a system by issuing commands, one at a time.
+
+HOT DOG STAND OPERATOR
+A _variable_ is a word or symbol in your program that can have values assigned to it.
+
+HOT DOG STAND OPERATOR
+The kielbasa is a large, Polish sausage, smoked and rich with garlicky spices, served on a bun with caramelized onions and grainy mustard. Only $4.50, or $6.50 with a drink.
+
+HOT DOG STAND OPERATOR
+Remember to like and subscribe!

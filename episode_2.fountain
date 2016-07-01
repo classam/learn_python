@@ -1,0 +1,290 @@
+INT. POLICE STATION - DAY
+A heated argument between the enormous, well-muscled DETECTIVE MOOSE and the wiry, intense looking DETECTIVE HAMMER.
+
+HAMMER
+We had those perps.
+
+MOOSE
+You had to go and lose your head.
+
+HAMMER
+You were this close to losing yours. Why didn't you chase them? Too many donuts?
+
+DA CHIEF
+(From their office)
+Quiet down! I need the two of you in my office now!
+
+TITLE CARD: LERN 2 PROGRAMMING EPISODE 2: HELLO, WORLD
+
+HAMMER
+Nice! What happens if I divide my first name by my last name?
+
+!    $ "AMY"/"hammer"
+!    TypeError: unsupported operand type(s) for /: 'str' and 'str'
+
+HAMMER
+I have no idea what that means.
+
+HOT DOG STAND OPERATOR
+Okay, let's break this down. It's a type-error - something to do with the type of things you're working with. It's telling you that it doesn't support the division operator for a stir and a stir.
+
+HAMMER
+What's a ... stir?
+
+HOT DOG STAND OPERATOR
+It stands for "string". "String" is a way of saying "stuff that's inside quotes"
+
+HAMMER
+Why not just call it a word? Wouldn't that be easier? It's a word. I think I'd understand if the computer told me that it couldn't divide a word by a word.
+
+HOT DOG STAND OPERATOR
+Well, it might not be a word - you could have a whole sentence, or a number inside those quotes. So long as it's inside the quotes, it's a string.
+
+!    $ "there once was a man from nantucket"
+!    'there once was a man from nantucket'
+!    $ "2 + 2"
+!    '2 + 2'
+!    $ "778"
+!    '778'
+
+HAMMER
+Okay, then what happens if I take a string number and multiply it by a number number?
+
+!    $ '778' * 5
+!    '778778778778778'
+
+HAMMER
+The math here doesn't check out.
+
+MOOSE
+It just took the '778' and repeated it five times. I guess that's also what it did with your first name.
+
+HAMMER
+Can we convert the string '778' to a number 778, then?
+
+HOT DOG STAND OPERATOR
+Yeah. In Python, a whole number is called an integer. So, there's a command that converts a string - which is words - to an integer - which is a number. Try this:
+
+!    $ int('778') * 5
+!    3885
+
+HAMMER
+Int? Str? Why not just call these things integer and string? Those are the names, right?
+
+HOT DOG STAND OPERATOR
+As far as I can tell, most good programmers are kinda lazy and don't want to write long words over and over again. So it's 'int' for integer and 'str' for string.
+
+MOOSE
+What happens if we try to convert something that's not a number?
+
+!    $ int('potatoes')
+!    ValueError: invalid literal for int() with base 10: 'potatoes'
+
+HOT DOG STAND OPERATOR
+It throws an error.
+
+HAMMER
+What about this?
+
+!    $ int('seven')
+!    ValueError: invalid literal for int() with base 10: 'seven'
+
+HAMMER
+Seriously?
+
+HOT DOG STAND OPERATOR
+You're giving the computer too much credit. It's not very smart.
+
+HAMMER
+This thing seems like it's not much more complicated than an office calculator.
+
+HOT DOG STAND OPERATOR
+The trick is, enough of these simple, stupid little interactions together can make something amazing.
+
+HAMMER
+Stop stalling, hot-dog man. We need to learn how to write a program, not to fiddle around with a calculator.
+
+HOT DOG STAND OPERATOR
+What do you think a program is?
+
+HAMMER
+You know... like.. Tinder. I swipe right and then have a disappointing night.
+
+HOT DOG STAND OPERATOR
+We've been entering commands - one at a time. A program is just a bunch of commands, one after another, in a row. Bam. Program.
+
+MOOSE
+So how do I .. do that?
+
+HOT DOG STAND OPERATOR
+In IDLE, you can open the 'file' panel in the top-left corner, select "new file", and a window will appear that you can write programs.
+
+HOT DOG STAND OPERATOR
+Type in some commands, like the ones you were entering earlier.
+
+!    x = 2
+!    x * x
+!    "hello world"
+
+HAMMER
+How do I run the program?
+
+HOT DOG STAND OPERATOR
+Along the top of the window there should be a 'run' panel. Select that, then "Run Module". You could also just press F5.
+
+MOOSE
+This keyboard doesn't have an F5 on it.
+
+HOT DOG STAND OPERATOR
+Yeah, I think the last keyboard with an F5 on it was manufactured some time in the late eighties. If you find one, let me know.
+
+They click 'run'
+
+HOT DOG STAND OPERATOR
+It'll ask you to save the file. Call it hello world.
+
+HAMMER
+What does that mean, anyways? Hello world?
+
+HOT DOG STAND OPERATOR
+It's a programmer thing.
+
+They run the program.
+
+!    $
+!    RESTART
+!    $
+
+HAMMER
+It just says "RESTART".
+
+HOT DOG STAND OPERATOR
+It worked! It restarted the interpreter and loaded your program.
+
+HAMMER
+But nothing happened!
+
+HOT DOG STAND OPERATOR
+The thing is, when you type a command into the command prompt, it'll automatically display the output for you on the next line. But - if a program did that - displayed the output of every single line it had to execute - really long programs could get super confusing. So, there's a command called print that you can use to display the output of a line. Here, let's change our program:
+
+!    x = 2
+!    print(x * x)
+!    print("hello world")
+
+HOT DOG STAND OPERATOR
+Now, run it.
+
+!    $
+!    RESTART
+!    4
+!    hello world
+
+HAMMER
+So why would I ever use this command prompt thing to enter commands when I could just write programs?
+
+HOT DOG STAND OPERATOR
+It's a great way to test out that something works before putting it into a program.
+
+Cut to:
+EXT. HOT DOG STAND - DAY
+
+HAMMER
+So, we wrote a program. This is dumb. I don't see how this will help us catch a criminal.
+
+HOT DOG STAND OPERATOR
+Programming has dozens of uses! For example:
+
+RAPID SCROLL-BY
+ * Building a website
+ * Automating away co-workers
+ * Vengeance
+ * Generating errors
+ * Shifting blame to Ted
+ * Video games where you fight a dog with a baby
+ * Spreadsheets!
+ * Spreadsheets!!
+ * Spreadsheets!!!
+ * Hacking the police website
+ * Writing chatbots
+ * Determining that your chat bots have become too intelligent
+ * Killing chatbots
+ * Hiding the evidence
+ * Cheating at online poker
+ * Web-spidering
+ * Video games where you draw horses
+
+HAMMER
+For example what? You just said 'for example' and then got a thousand yard stare for a few seconds.
+
+HOT DOG STAND OPERATOR
+Oh,  don't worry. You'll figure it out.
+
+They stand at the hot dog stand for a few awkward seconds.
+
+INT. CAPTAIN'S OFFICE
+
+DA CHIEF
+So, you've progressed and painstakingly prepared a python program. Very professional. But how do you propose to pin the perp? Prognostication?
+
+MOOSE
+Well, we need to learn more. Like, we learned a little bit about Strings and Integers, but.. what if there are... more types of things?
+
+HAMMER
+More types? You're crazy. Two is plenty.
+
+MOOSE
+Ha, you're right. What was I thinking?
+
+DA CHIEF
+Stay on the case then. You've got a lot to learn before you're ready to go toe to toe with the hacker.
+
+MOOSE
+Seriously, you could just hire somebody. Anybody. Even for a short contract.
+
+DA CHIEF
+Get out of my office.
+
+Everybody turns to the camera
+
+DA CHIEF
+If you enjoyed this episode, make sure to check out our sponsor - Edvard's Nutrient Sludge, at marquee.click/sludge!
+
+MOOSE
+If you're a sludge lover and a nutrient lover, this nutrient sludge is for you!
+
+HAMMER
+It tastes like wet flour mixed with purple food dye.
+
+DA CHIEF
+Remember, that's Edvard's Nutrient Sludge
+
+JINGLE VOICE WITH OVERLAY
+"It's just wet flour and purple food dye!"
+
+EXT. HOT DOG STAND - DAY
+
+HOT DOG STAND OPERATOR
+Recap time! Let's look at the menu!
+
+HOT DOG STAND OPERATOR waves at their hot dog menu, which has glossary terms instead of hot dog prices.
+
+HOT DOG STAND OPERATOR
+An interpreter is the program that you use to run Python programs.
+
+HOT DOG STAND OPERATOR
+A variable is a word or symbol in your program that can have values assigned to it.
+
+HOT DOG STAND OPERATOR
+A string is a block of content - like words, or numbers - that you don't want the python interpreter to treat as commands, so you wrap them in quotes.
+
+HOT DOG STAND OPERATOR
+An integer is a whole number - like seven. Or one hundred and thiry eight. Or negative ten.
+
+HOT DOG STAND OPERATOR
+Print is a function that you can use to display the output of a command when you're writing a program.
+
+HOT DOG STAND OPERATOR
+The kielbasa is a large, Polish sausage, smoked and rich with garlicky spices, served on a bun with caramelized onions and grainy mustard. Only $4.50, or $6.50 with a drink.
+
+HOT DOG STAND OPERATOR
+Remember to like and subscribe!
